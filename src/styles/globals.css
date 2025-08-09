@@ -1,12 +1,21 @@
+
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import "tw-animate-css";
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 @layer utilities {
   .dark * {
     @apply dark:border-border dark:bg-background dark:text-foreground;
   }
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }  
 }
 
 @theme inline {
@@ -118,4 +127,19 @@
   --sidebar-ring: oklch(0.552 0.016 285.938);
 }
 
+/* Custom responsive breakpoints */
+@media (max-width: 375px) {
+  /* Extra small mobile styles */
+}
 
+@media (min-width: 376px) and (max-width: 767px) {
+  /* Small tablet styles */
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Tablet styles */
+}
+
+@media (min-width: 1024px) {
+  /* Desktop styles */
+}
