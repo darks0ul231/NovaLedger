@@ -1,0 +1,9 @@
+.next
+node_modules
+*.config.js
+*.config.ts
+**/*.d.ts
+**/types/**
+dist
+build
+coverage
