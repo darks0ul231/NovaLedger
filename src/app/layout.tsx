@@ -36,6 +36,8 @@ function Header() {
   );
 }
 
+wrong commits
+
 function Footer() {
   return (
     <footer>
