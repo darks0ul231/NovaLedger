@@ -1,13 +1,19 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <section id="about" className="py-20 bg-white">
       <div className="mx-auto max-w-7xl px-6 lg:flex lg:items-center lg:gap-16">
         <div className="lg:w-1/2">
-          <img
-            src="https://images.unsplash.com/photo-1521790797524-b2497295b8a0"
-            alt="Team meeting"
-            className="rounded-xl shadow-lg"
-          />
+          <div className="relative w-full h-96">
+            <Image
+              src="https://images.unsplash.com/photo-1521790797524-b2497295b8a0"
+              alt="Team meeting"
+              fill
+              className="rounded-xl shadow-lg object-cover"
+            />
+          </div>
+
         </div>
         <div className="mt-10 lg:mt-0 lg:w-1/2">
           <h2 className="text-3xl font-bold text-gray-900">About NovaLedger</h2>
