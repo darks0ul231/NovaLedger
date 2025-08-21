@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative bg-white">
+   <section className="relative bg-white">
       <div className="mx-auto max-w-7xl px-6 py-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left: Text Content */}
         <div className="max-w-2xl">
@@ -29,6 +29,7 @@ export default function Hero() {
             </a>
           </div>
         </div>
+        
 
         {/* Right: Image */}
         <div className="flex justify-center lg:justify-end">
