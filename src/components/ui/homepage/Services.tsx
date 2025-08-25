@@ -12,6 +12,14 @@ export default function Services() {
       title: "Financial Advisory",
       desc: "Expert guidance to help you make informed business decisions.",
     },
+    {
+      title: "Payroll Services",
+      desc: "Ensuring your team gets paid correctly and on time, with all taxes filed.",
+    },
+    {
+      title: "Monthly Financial Reports",
+      desc: "Easy-to-understand Profit & Loss statements, Balance Sheets, and Cash Flow forecasts.",
+    },
   ];
 
   return (

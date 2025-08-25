@@ -33,12 +33,12 @@ export default function Hero() {
 
         {/* Right: Image */}
         <div className="flex justify-center lg:justify-end">
-          <div className="relative w-full max-w-md h-80 flex-shrink-0">
+          <div className="relative w-full max-w-md h-80 flex-shrink-0 -inset-4 bg-blue-100 rounded-3xl rotate-3">
             <Image
               src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
               alt="Accounting workspace"
               fill
-              className="rounded-xl shadow-lg object-cover"
+              className="relative w-full h-auto rounded-2xl shadow-2xl object-cover transform hover:scale-[1.02] transition-transform duration-300"
             />
           </div>
         </div>
