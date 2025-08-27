@@ -23,7 +23,7 @@ export default function Services() {
   ];
 
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-20 relative bg-gradient-to-b from-white to-blue-100 overflow-hidden">
       <div className="mx-auto max-w-7xl px-6">
         <h2 className="text-3xl font-bold text-center text-gray-900">
           Our Services

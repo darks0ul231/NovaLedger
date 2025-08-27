@@ -15,7 +15,6 @@ export default function Home() {
   const toggleDarkMode = () => setDarkMode(!darkMode);
 
   return (
-    <div className={`${darkMode && "dark"}`}>
      <main className="bg-gray-100 dark:bg-gray-900">
       <RequestConsultation />
       <Header/>
@@ -25,6 +24,5 @@ export default function Home() {
       <Contact />
       <Footer />
     </main>
-  </div>
   );
 }
