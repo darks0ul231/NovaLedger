@@ -1,12 +1,12 @@
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 bg-gray-50">
-      <div className="mx-auto max-w-2xl px-6 text-center">
-        <h2 className="text-3xl font-bold text-gray-900">Get in Touch</h2>
+    <section id="contact" className="py-20 bg-gray-100 md:py-24">
+      <div className="mx-auto max-w-xl px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl font-bold text-gray-900 md:text-4xl">Get in Touch</h2>
         <p className="mt-4 text-gray-600">
           Ready to simplify your accounting? Contact us today.
         </p>
-        <form className="mt-8 space-y-4 text-left">
+        <form className="mt-4 text-lg text-gray-600 text-center">
           <input
             type="text"
             placeholder="Your Name"

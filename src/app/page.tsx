@@ -1,25 +1,24 @@
-'use client'
+"use client";
+import Hero from "@/components/ui/homepage/Hero";
+import Services from "@/components/ui/homepage/Services";
+import About from "@/components/ui/homepage/About";
+import Contact from "@/components/ui/homepage/Contact";
+import Footer from "@/components/ui/homepage/Footer";
+import Header from "@/components/ui/homepage/Header";
+import RequestConsultation from "@/components/ui/homepage/RequestConsultation";
 
-import { Button } from "@/components/shared/Button";
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold text-blue-600 mb-4">
-          Tailwind CSS is working!
-        </h1>
-        <p className="text-lg text-gray-700">
-          If you see this styled text, your setup is correct 🎉
-        </p>
-
-        <div className="flex flex-col gap-4 p-6">
-          <Button label="Primary Action" onClick={() => alert("Clicked!")} />
-          <Button label="Secondary" variant="secondary" />
-          <Button label="Danger" variant="danger" />
-          <Button label="Outline" variant="outline" />
-        </div>
-      </div>
+     <main className="bg-gray-100 dark:bg-gray-900">
+      <RequestConsultation />
+      <Header/>
+      <Hero/>
+      <Services />
+      <About />
+      <Contact />
+      <Footer />
     </main>
   );
 }

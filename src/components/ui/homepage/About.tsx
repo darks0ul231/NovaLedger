@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section id="about" className="py-20 relative bg-gradient-to-t from-white to-blue-100 overflow-hidden">
+    <section id="about" className="py-20 relative bg-gradient-to-t from-white to-green-100 overflow-hidden">
       <div className="mx-auto max-w-7xl px-6 lg:flex lg:items-center lg:gap-16">
         <div className="lg:w-1/2">
           <div className="relative w-full h-96 ">
