@@ -1,0 +1,17 @@
+{
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Novaledger",
+  "short_name": "Nova",
+  "description": "Accounting made simpler.",
+  "icons": [
+    {
+      "src": "/icon-512x512_rounded.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

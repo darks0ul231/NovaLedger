@@ -1,3 +1,4 @@
+// next.config.ts
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
@@ -9,6 +10,17 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // These options are now default in Next.js 15 and can be removed
+  // swcMinify: true,
+  // optimizeFonts: true,
 };
 
-export default nextConfig;
+// Use require to avoid type conflicts with next-pwa
+const withPWA = require("next-pwa")({
+  dest: "public",
+  register: true,
+  skipWaiting: true,
+  disable: process.env.NODE_ENV === "development",
+});
+
+module.exports = withPWA(nextConfig);
